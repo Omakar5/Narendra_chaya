@@ -1,0 +1,153 @@
+* {
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #1e2e3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 57px;
+    width: 70;
+}
+.logo{
+    background-image: url("logo2.png");
+    background-size: cover;
+    height: 57px;
+    width: 70px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/**box2**/
+.add-d{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin: 7px;
+}
+.add-b{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/** box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(237, 171, 71);
+    width: 650px;
+    height: 40px;
+    border-radius: 3px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/**box4**/
+span{
+    font-size: 0.8rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700px;
+} 
+/**box**/
+.nav-cart i{
+    font-size: 35;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 800px;
+}
+/**panel**/
+.panel-all{
+    height:40px ;
+    background-color: #25374a;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p{
+    display: inline;
+    margin: 15px;
+}
+.panel-option{
+    width: 70%;
+    font-size: 0.75rem;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/**hero-sectio**/
+.hero-sec{
+    background-image: url(bg_hero.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+/**shop section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0cabcb;
+}
+.box{
+    border:2px solid black;
+    height: 300;
+    width:450px;
+    background-color: white;
+}
+.box1_img{
+    height: 250px;
+    background-image: cover;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2_img{
+    height: 250px;
+    background-image: cover;
+}
+.box3_img{
+    height: 250px;
+    background-image: cover;
+}.box4_img{
+    height: 250px;
+    background-image: cover;
+}
